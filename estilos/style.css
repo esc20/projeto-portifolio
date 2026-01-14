@@ -172,7 +172,7 @@ article h2 {
   align-items: center;
 }
 
-#skill-container .none {
+#skill-container .nome {
   font-weight: bold;
   color: var(--texto);
 }
@@ -190,7 +190,7 @@ article h2 {
 }
 
 #skill-container .progresso {
-  height: 100px;
+  height: 100%;
   background-color: var(--destaque-inverso);
   border-radius: 4px;
 }
@@ -275,7 +275,7 @@ footer a:hover {
 
 }
 
-@media screen and (min-widh: 768px) {
+@media screen and (min-width: 768px) {
    main {
       grid-template-columns: auto 300px auto;
    }
